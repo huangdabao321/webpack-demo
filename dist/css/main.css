@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  font-size: 1rem; }
+
+#container {
+  max-width: 750px;
+  height: 100%;
+  margin: auto;
+  background-color: #ededed;
+  overflow: auto; }
+  #container .main-info {
+    background: #ffffff;
+    text-align: center; }
+    #container .main-info .head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 0.72rem;
+      background: linear-gradient(#012ac2, #3f83fe);
+      line-height: 0.72rem; }
+      #container .main-info .head img {
+        width: 1.82667rem; }
+    #container .main-info .swiper-container {
+      width: 100%; }
+      #container .main-info .swiper-container img {
+        width: 100%; }
+    #container .main-info .main-info-detail {
+      padding: 0.33333rem; }
+      #container .main-info .main-info-detail h2 {
+        letter-spacing: 0.02667rem;
+        font-size: 0.45333rem; }
+      #container .main-info .main-info-detail fieldset {
+        border-color: #f20a3c;
+        border-width: 1px 0 0;
+        border-style: solid; }
+        #container .main-info .main-info-detail fieldset legend {
+          padding: 0 0.13333rem;
+          color: #f20a3c;
+          font-size: 0.26667rem; }
+      #container .main-info .main-info-detail .time-wrap {
+        font-size: 0.26667rem; }
+        #container .main-info .main-info-detail .time-wrap .time {
+          font-weight: bold;
+          font-size: 0.4rem; }
+    #container .main-info .tag {
+      position: relative;
+      display: flex;
+      height: 1.44rem;
+      background-color: #f20a3c;
+      -webkit-border-radius: 0.08rem;
+      -moz-border-radius: 0.08rem;
+      border-radius: 0.08rem;
+      font-size: 0.21333rem;
+      color: white;
+      overflow: hidden; }
+      #container .main-info .tag div:first-child {
+        flex: 27%;
+        position: relative;
+        text-align: center; }
+        #container .main-info .tag div:first-child .dot {
+          position: absolute;
+          left: 90%;
+          height: 0.26667rem;
+          width: 0.26667rem;
+          border-radius: 50%;
+          background-color: white;
+          z-index: 2; }
+        #container .main-info .tag div:first-child .dot-up {
+          top: -0.13333rem; }
+        #container .main-info .tag div:first-child .dot-down {
+          bottom: -0.13333rem;
+          padding-right: 0; }
+        #container .main-info .tag div:first-child p {
+          position: absolute;
+          line-height: 1.44rem;
+          padding-left: 0.13333rem;
+          z-index: 2; }
+          #container .main-info .tag div:first-child p span {
+            font-size: 0.50667rem; }
+        #container .main-info .tag div:first-child img {
+          position: absolute;
+          width: 80%;
+          left: 0;
+          top: -0.2rem;
+          z-index: 1; }
+      #container .main-info .tag div:last-child {
+        flex: 73%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0.13333rem;
+        overflow: hidden; }
+        #container .main-info .tag div:last-child hr {
+          border: none;
+          height: 0.01333rem;
+          border-top: 0.01333rem solid white;
+          width: 100%; }
+        #container .main-info .tag div:last-child span {
+          white-space: nowrap; }
+        #container .main-info .tag div:last-child .icon-lingxing {
+          font-size: 0.24rem; }
+    #container .main-info .media .media-wrap {
+      height: 0.8rem;
+      background-color: #b2b6c2;
+      border-top-left-radius: 0.08rem;
+      border-top-right-radius: 0.08rem;
+      padding: 0 0.13333rem;
+      margin-top: 0.26667rem;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      line-height: 0.8rem; }
+      #container .main-info .media .media-wrap p {
+        font-size: 0.32rem; }
+    #container .main-info .media video {
+      width: 100%; }
+  #container .consultant {
+    background: linear-gradient(to right, #012ac2, #3f83fe, #ffffff); }
+    #container .consultant .left {
+      flex: 20%;
+      color: #ffffff;
+      font-size: 0.26667rem;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      #container .consultant .left p {
+        text-align: center; }
+    #container .consultant .right {
+      flex: 80%;
+      display: flex;
+      background-color: #ffffff;
+      font-size: 0.32rem;
+      border-top-left-radius: 0.52rem;
+      border-bottom-left-radius: 0.52rem;
+      align-items: center;
+      padding-left: 0.06667rem; }
+      #container .consultant .right img {
+        width: 0.90667rem;
+        height: 0.90667rem;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+      #container .consultant .right .consultant-info {
+        width: 100%;
+        display: flex;
+        margin-left: 0.13333rem; }
+        #container .consultant .right .consultant-info .name-address-wrap {
+          flex: 90%;
+          overflow: hidden; }
+          #container .consultant .right .consultant-info .name-address-wrap p {
+            white-space: nowrap; }
+          #container .consultant .right .consultant-info .name-address-wrap p.name {
+            font-size: 0.32rem;
+            font-weight: bold; }
+        #container .consultant .right .consultant-info .mobile {
+          flex: 10%;
+          align-self: center;
+          color: #012ac2; }
+          #container .consultant .right .consultant-info .mobile i {
+            font-size: 0.61333rem; }
+  #container section.p25 {
+    background-color: #ffffff; }
+    #container section.p25 p {
+      font-size: 0.32rem;
+      font-weight: bold;
+      border-bottom: 1px solid #ededed;
+      padding-bottom: 0.2rem; }
+    #container section.p25 img {
+      width: 100%; }
+  #container .shop-info {
+    background-color: #ffffff; }
+    #container .shop-info .left {
+      flex: 20%;
+      line-height: 1.04rem;
+      font-size: 0.28rem;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      background: linear-gradient(to right, #012ac2, #3f83fe);
+      border-bottom-right-radius: 0.52rem;
+      border-top-right-radius: 0.52rem; }
+    #container .shop-info .right {
+      flex: 80%;
+      font-size: 0.29333rem;
+      padding-left: 0.13333rem;
+      display: flex;
+      align-self: center; }
+      #container .shop-info .right .shop {
+        flex: 90%;
+        overflow: hidden; }
+        #container .shop-info .right .shop .company-name {
+          font-size: 0.29333rem;
+          font-weight: bold; }
+      #container .shop-info .right .gps {
+        flex: 10%;
+        align-self: center;
+        color: #012ac2; }
+        #container .shop-info .right .gps i {
+          font-size: 0.61333rem; }
+  #container .contact-shop {
+    height: 1.17333rem;
+    margin: 0.2rem auto 1.53333rem;
+    text-align: center;
+    width: 90%;
+    background-color: #ffffff;
+    -webkit-border-radius: 0.08rem;
+    -moz-border-radius: 0.08rem;
+    border-radius: 0.08rem; }
+    #container .contact-shop p:first-child {
+      padding-top: 0.13333rem;
+      font-size: 0.32rem;
+      color: #f20a3c;
+      font-weight: bold; }
+      #container .contact-shop p:first-child i {
+        font-size: 0.48rem; }
+      #container .contact-shop p:first-child span {
+        vertical-align: text-bottom; }
+    #container .contact-shop p:last-child {
+      color: #ededed;
+      font-size: 0.21333rem; }
+  #container .fixed-bottom {
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    height: 1.30667rem;
+    border-top: 1px solid #ededed;
+    line-height: 1.04rem;
+    padding-top: 0.2rem; }
+    #container .fixed-bottom a {
+      display: block;
+      margin: 0 auto;
+      width: 6.64rem;
+      height: 0.90667rem;
+      line-height: 0.90667rem;
+      font-size: 0.48rem;
+      font-weight: bold;
+      background-color: #f20a3c;
+      -webkit-border-radius: 0.08rem;
+      -moz-border-radius: 0.08rem;
+      border-radius: 0.08rem;
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center; }
+
+.h78 {
+  height: 1.04rem;
+  margin: 0.2rem 0;
+  display: flex; }
+
+.p25 {
+  padding: 0.33333rem; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2Nzcy9tYWluLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/
